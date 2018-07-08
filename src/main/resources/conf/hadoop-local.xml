@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <!-- the default filesystem -->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>file:///</value>
+    </property>
+    <!-- the local framework for running MapReduce jobs -->
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>local</value>
+    </property>
+</configuration>
